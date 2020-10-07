@@ -1,0 +1,11 @@
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - save has been called with arguments array : [Employee(id=1, firstname=Billel, lastname=KETROUCI, email=billel.ketrouci@gmail.com)], target : com.oozeander.service.EmployeeService
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - getEmployees has been called, target : com.oozeander.service.EmployeeService
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - getEmployees has been successfully finished and returned : [Employee(id=1, firstname=Billel, lastname=KETROUCI, email=billel.ketrouci@gmail.com)]
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - getEmployee has been called with arguments array : [1], target : com.oozeander.service.EmployeeService
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - getEmployee has successfully finished with arguments array : [1], target : com.oozeander.service.EmployeeService
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - delete has been called
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - delete has been called with arguments array : [1], target : com.oozeander.service.EmployeeService
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - delete has successfully ended
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - getEmployee has been called with arguments array : [1], target : com.oozeander.service.EmployeeService
+07/10/2020 - 15:46:25 [main] INFO  com.oozeander.aspect.LoggingAspect - getEmployee has successfully finished with arguments array : [1], target : com.oozeander.service.EmployeeService
+07/10/2020 - 15:46:25 [main] ERROR com.oozeander.aspect.LoggingAspect - getEmployee has thrown an exception of type : java.util.NoSuchElementException, cause : No value present
